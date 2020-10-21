@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Login</name>
+   <name>span_AlleAkzeotieren</name>
    <tag></tag>
-   <elementGuidId>b8afc684-44e7-446f-ae99-0eeaebe2068b</elementGuidId>
+   <elementGuidId>047a1531-79af-4d73-bf4c-732194faace5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Login')]</value>
+         <value>//span[contains(text(),'Auswahl bestätigen')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

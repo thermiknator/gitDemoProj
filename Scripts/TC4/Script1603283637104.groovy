@@ -15,20 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.openBrowser('https://www.beuth.de')
-//
-//WebUI.maximizeWindow()
+WebUI.click(findTestObject('Flyout/span_Normen-Produkte'))
 
-WebUI.click(findTestObject('span_AlleAkzeotieren'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/span_Login'), 2)
-
-WebUI.click(findTestObject('Object Repository/span_Login'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/input_username'), 2)
-
-WebUI.setText(findTestObject('Object Repository/input_username'), 'mwendler2')
-
-WebUI.setText(findTestObject('Object Repository/input_password'), 'Max+99')
-
-WebUI.click(findTestObject('Object Repository/span_Anmelden'))

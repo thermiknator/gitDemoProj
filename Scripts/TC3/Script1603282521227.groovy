@@ -14,21 +14,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('https://www.beuth.de')
-//
-//WebUI.maximizeWindow()
+WebUI.click(findTestObject('Suche/span_Alle Suchbereiche'))
 
-WebUI.click(findTestObject('span_AlleAkzeotieren'))
+WebUI.click(findTestObject('Suche/span_Publikationen'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/span_Login'), 2)
+WebUI.setText(findTestObject('Suche/input_Hilfe zum Normen-Ticker_query'), 'DIN')
 
-WebUI.click(findTestObject('Object Repository/span_Login'))
+WebUI.click(findTestObject('Suche/div_DIN 10'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/input_username'), 2)
-
-WebUI.setText(findTestObject('Object Repository/input_username'), 'mwendler2')
-
-WebUI.setText(findTestObject('Object Repository/input_password'), 'Max+99')
-
-WebUI.click(findTestObject('Object Repository/span_Anmelden'))

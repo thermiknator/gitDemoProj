@@ -41,6 +41,6 @@ class StartTS {
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
-		WebUI.closeBrowser()
+//		WebUI.closeBrowser()
 	}
 }

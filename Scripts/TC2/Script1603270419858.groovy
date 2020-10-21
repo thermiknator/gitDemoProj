@@ -18,4 +18,4 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.waitForElementClickable(findTestObject('Object Repository/span_MeinKonto'), 2)
 WebUI.click(findTestObject('Object Repository/span_MeinKonto'))
 WebUI.click(findTestObject('Object Repository/span_Abmelden'))
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
