@@ -23,16 +23,4 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/TC2</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>db6ea4fb-0479-41f6-a8f2-1fc5f0aee150</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/TC3</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3fc600d0-6922-4bbc-b348-92deab4ea060</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC4</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

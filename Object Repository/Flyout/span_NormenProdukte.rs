@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Normen-Produkte</name>
+   <name>span_NormenProdukte</name>
    <tag></tag>
    <elementGuidId>8ab1f6e5-b991-43e7-a54a-2c6988db4a17</elementGuidId>
    <selectorCollection>

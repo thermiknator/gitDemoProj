@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_AlleAkzeotieren</name>
+   <name>span_AlleAkzeptieren</name>
    <tag></tag>
    <elementGuidId>047a1531-79af-4d73-bf4c-732194faace5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

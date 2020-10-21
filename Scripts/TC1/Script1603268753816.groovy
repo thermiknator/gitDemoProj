@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 //
 //WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('span_AlleAkzeotieren'))
+WebUI.click(findTestObject('span_AlleAkzeptieren'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/span_Login'), 2)
 
